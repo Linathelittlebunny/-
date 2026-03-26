@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>角色档案</title>
+    <style>
+        body {
+            background-color: #f4f6fb;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            width: 900px;
+            margin: 50px auto;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            display: flex;
+            padding: 30px;
+        }
+
+        .left {
+            width: 50%;
+            padding-right: 20px;
+        }
+
+        .right {
+            width: 50%;
+            text-align: center;
+        }
+
+        .right img {
+            width: 300px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .info {
+            line-height: 1.8;
+        }
+
+        .title {
+            font-weight: bold;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="left">
+        <h1>小九</h1>
+        <div class="info">
+            <p><span class="title">年龄：</span>13</p>
+            <p><span class="title">身高：</span>155cm</p>
+            <p><span class="title">来自：</span>原·梦林 → 现·电玩城区域</p>
+            <p><span class="title">生日：</span>5月16日</p>
+            <p><span class="title">种族：</span>狐</p>
+            <p><span class="title">性别：</span>女</p>
+            <p><span class="title">外貌特征：</span><br>
+            长发，略显凌乱
+有狐耳 
+一只眼睛受伤，所以带上了眼罩
+表情常年平淡或迟钝
+身形偏瘦小，看起来很弱
+行动时有一点“延迟感”（像慢半拍）
+            </p>
+        </div>
+    </div>
+
+    <div class="right">
+        <img src="character.png" alt="角色立绘">
+    </div>
+</div>
+
+</body>
+</html>
